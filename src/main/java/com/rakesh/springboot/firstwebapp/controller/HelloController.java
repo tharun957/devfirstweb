@@ -20,6 +20,14 @@ public class HelloController {
 		
 
 	}
+
+      @RequestMapping(value = "/welcome", method = RequestMethod.GET)
+	public String message1() {
+		return "Welcome to CI";
+		
+
+	}
+
     @Autowired
 	 Validateuser use;
 	
